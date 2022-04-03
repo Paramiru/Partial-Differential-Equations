@@ -27,10 +27,10 @@ def exp4():
     solver.plotBfield3d()
 
 def exp5():
-    solver = ElectricPoisson(l=10)
+    solver = ElectricPoisson(l=50)
     # solver.solvePoisson(update=overRelaxation, w=1.99)
     solver.findMinimumW()
 
 if __name__ == '__main__':
     exp5()
-    # exp1()
+    exp1()

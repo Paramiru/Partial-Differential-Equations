@@ -44,7 +44,7 @@ class ElectricPoisson(Poisson):
         # plt.show()
 
     def findMinimumW(self):
-        ws = np.arange(1, 2, step=0.01)
+        ws = np.arange(1, 2, step=0.02)
         print(ws)
         steps = []
         for w in ws:
